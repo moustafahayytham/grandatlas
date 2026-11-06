@@ -1,0 +1,120 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@theme {
+  --font-lato: "Lato", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+}
+
+
+html, body {
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-color: #8E1616;
+  --secondary-color: #eeeeee;
+  --text-color: #333333;
+  --red-color2: #A22A2A;
+  --red-color3: #C34B4B;
+  --red-color4: #F17979;
+  --red-color5: #FFBDBD;
+  --red-light1: #D84040;
+  --red-light2: #F25A5A;
+  --red-light3: #FF8484;
+  --red-light4: #FFA7A7;
+  --red-light5: #FFDADA;
+  --dark: #1D1616;
+  --dark2: #302929;
+  --dark3: #554E4E;
+  --dark4: #847D7D;
+  --dark5: #CEC7C7;
+  --beige: #A18E77;
+  --beige2: #B39F84;
+  --beige3: #C1AE95;
+  --beige4: #D8C8AE;
+  --beige5: #E1D1B8;
+
+
+  /* Fonts */
+
+  --Lato-thin: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+  --Lato-light: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  --Lato-regular: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  --Lato-bold: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  --Lato-black: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+
+  --playfair-display-bold: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+
+  --playfair-display-regular: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+ /* -- Lato */
+
+ .lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+ /* -- Playfair */
+
+    
+.playfair-display-bold {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playfair-display-regualar {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
