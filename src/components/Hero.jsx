@@ -26,7 +26,7 @@ export default function Hero({bg, title, description, button, icons}) {
     <a href='#'><img src={Instagram} alt="Instagram" className="w-[22px] h-[22px] object-contain" /></a>
   </div>
           <div className="w-[42px] h-[42px] rounded-full border-3 border-white flex items-center justify-center">
-    <img src={Twitter} alt="Twitter" className="w-[22px] h-[22px] object-contain" />
+    <a href='#'><img src={Twitter} alt="Twitter" className="w-[22px] h-[22px] object-contain" /></a>
   </div>
           <div className="w-[42px] h-[42px] rounded-full border-3 border-white flex items-center justify-center">
     <a href='#'><img src={tiktok} alt="TikTok" className="w-[22px] h-[22px] object-contain" /></a>

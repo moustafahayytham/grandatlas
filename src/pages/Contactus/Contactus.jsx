@@ -6,7 +6,7 @@ import Location from '../../assets/Icons/contacticons/LocationIcon.svg'
 import Mail from '../../assets/Icons/contacticons/lucide_mail.svg'
 import Phone from '../../assets/Icons/contacticons/md_phone.svg'
 
-import Facebook  from '../../assets/Icons/facebookred.svg'
+import Facebook  from '../../assets/Icons/Facebookred.svg'
 import Instagram from '../../assets/Icons/instagram-red.svg'
 import Twitter from '../../assets/Icons/Twittered.svg'
 import tiktok from '../../assets/Icons/tiktokred.svg'
