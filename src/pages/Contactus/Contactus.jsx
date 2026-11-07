@@ -6,10 +6,10 @@ import Location from '../../assets/Icons/contacticons/LocationIcon.svg'
 import Mail from '../../assets/Icons/contacticons/lucide_mail.svg'
 import Phone from '../../assets/Icons/contacticons/md_phone.svg'
 
-import Facebook  from '../../assets/Icons/Facebookred.svg'
-import Instagram from '../../assets/Icons/instagram-red.svg'
-import Twitter from '../../assets/Icons/Twittered.svg'
-import tiktok from '../../assets/Icons/tiktokred.svg'
+import Facebook2 from '../../assets/Icons/Facebookred.svg'
+import Instagram2 from '../../assets/Icons/instagram-red.svg'
+import Twitter2 from '../../assets/Icons/Twittered.svg'
+import tiktok2 from '../../assets/Icons/tiktokred.svg'
 
 
 export default function Contactus() {
@@ -56,16 +56,16 @@ export default function Contactus() {
     <h1 className="text-[22px] text-[#847D7D] font-playfair font-semibold">Follow us on social media</h1>
     <div className="w-[207px] h-[50px] flex flex-row gap-[13px]">
       <div className="w-[42px] h-[42px] rounded-full border-3 border-[#8E1616] flex items-center justify-center">
-    <img src={Facebook} alt="Facebook" className="w-[23px] h-[23px] object-contain" />
+    <img src={Facebook2} alt="Facebook" className="w-[23px] h-[23px] object-contain" />
   </div>
   <div className="w-[42px] h-[42px] rounded-full border-3 border-[#8E1616] flex items-center justify-center">
-    <img src={Twitter} alt="Twitter" className="w-[21px] h-[21px] object-contain" />
+    <img src={Twitter2} alt="Twitter" className="w-[21px] h-[21px] object-contain" />
   </div>
           <div className="w-[42px] h-[42px] rounded-full border-3 border-[#8E1616] flex items-center justify-center">
-    <img src={Instagram} alt="Instagram" className="w-[25px] h-[25px] object-contain" />
+    <img src={Instagram2} alt="Instagram" className="w-[25px] h-[25px] object-contain" />
   </div>
           <div className="w-[42px] h-[42px] rounded-full border-3 border-[#8E1616] flex items-center justify-center">
-    <img src={tiktok} alt="TikTok" className="w-[25px] h-[25px] object-contain" />
+    <img src={tiktok2} alt="TikTok" className="w-[25px] h-[25px] object-contain" />
   </div>
     </div>
   </div>
