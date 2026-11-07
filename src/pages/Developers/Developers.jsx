@@ -44,7 +44,7 @@ export default function Developers() {
     icons={true}
     />
 
-    <div className="w-full min-h-[440px] gap-[20px] items-center flex flex-row flex-wrap justify-center mt-[38px]">
+    <div className="w-full min-h-[440px] gap-[20px] items-center flex flex-row flex-wrap mb-[141px] justify-center mt-[38px]">
       {developers.map((developer) => (
         <div key={developer.id} className='justify-center w-[442px] h-[426px] rounded-[16px] border border-[#EAEAEA] shadow-[0px_4px_4px_0px_#00000040] flex flex-col'>
           <div className='relative w-full h-[271px] shrink-0'>

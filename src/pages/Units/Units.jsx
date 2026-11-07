@@ -45,7 +45,7 @@ export default function Units() {
         />
 
          
-<div className="w-full flex flex-wrap justify-center gap-[20px] mt-[38px] px-[37px]">
+<div className="w-full flex flex-wrap justify-center gap-[20px] mt-[38px] px-[37px] mb-[141px]">
 
   {units.map((unit) => (
 

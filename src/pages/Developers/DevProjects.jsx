@@ -35,7 +35,7 @@ export default function Projects() {
 
   return (
     <>
-    <div className='w-full flex flex-col items-center'>
+    <div className='w-full flex flex-col items-center mb-[141px]'>
             <div className='justify-center items-center flex flex-col'>
                 <h2 className="text-[32px] text-black text-center font-playfair font-semibold">Developer Projects</h2>
       <div className="w-[164px] h-[6px] bg-[#C34B4B] rounded-sm mt-[12px] mb-[30px]">

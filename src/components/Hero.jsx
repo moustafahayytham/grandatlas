@@ -20,16 +20,16 @@ export default function Hero({bg, title, description, button, icons}) {
         {icons ? 
         <div className="w-[50px] h-[266px] mt-[289px] absolute left-[30px] flex flex-col justify-center items-center gap-[22px]">
           <div className="w-[42px] h-[42px] rounded-full border-3 border-white flex items-center justify-center">
-    <img src={Facebook} alt="Facebook" className="w-[22px] h-[22px] object-contain" />
+    <a href='#'><img src={Facebook} alt="Facebook" className="w-[22px] h-[22px] object-contain" /></a>
   </div>
           <div className="w-[42px] h-[42px] rounded-full border-3 border-white flex items-center justify-center">
-    <img src={Instagram} alt="Instagram" className="w-[22px] h-[22px] object-contain" />
+    <a href='#'><img src={Instagram} alt="Instagram" className="w-[22px] h-[22px] object-contain" /></a>
   </div>
           <div className="w-[42px] h-[42px] rounded-full border-3 border-white flex items-center justify-center">
     <img src={Twitter} alt="Twitter" className="w-[22px] h-[22px] object-contain" />
   </div>
           <div className="w-[42px] h-[42px] rounded-full border-3 border-white flex items-center justify-center">
-    <img src={tiktok} alt="TikTok" className="w-[22px] h-[22px] object-contain" />
+    <a href='#'><img src={tiktok} alt="TikTok" className="w-[22px] h-[22px] object-contain" /></a>
   </div>
       </div> : ""}
     </div>
