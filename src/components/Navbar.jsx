@@ -5,7 +5,7 @@ import atlas from "../assets/Images/Atlas.png";
 export default function Navbar() {
   return (
       <>
-     <div className="w-full h-[105px] flex justify-between items-center bg-[#ffffff] px-4">
+     <div className="overflow-y-hidden w-full h-[105px] flex justify-between items-center bg-[#ffffff] px-4">
         <Link to="/"><img src={atlas} alt="Atlas Logo" className="w-[116px] h-auto"/> </Link>
         <ul className="flex gap-16 justify-center items-center absolute left-1/2 -translate-x-1/2 font-lato font-bold text-[#847D7D] pt-9 pb-9 py-4 ">
           <li><Link className="focus:text-[#8E1616] focus:border-b-3 focus:border-[#8E1616]" to='/'>Home</Link></li>
